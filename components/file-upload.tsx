@@ -6,9 +6,9 @@ import Image from "next/image";
 // import "@uploadthing/react/styles.css";
 
 interface FileUploadProps {
-  endpoint: "messageFile" | "serverImage",
-  value: string,
-  onChange: (url?: string) => void
+  endpoint: "messageFile" | "serverImage";
+  value: string;
+  onChange: (url?: string) => void;
 }
 
 export default function FileUpload({endpoint, value, onChange}: FileUploadProps) {
