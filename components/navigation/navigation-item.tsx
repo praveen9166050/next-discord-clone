@@ -16,7 +16,7 @@ export default function NavigationItem({id, name, imageUrl}: NavigationItemProps
   const router = useRouter();
 
   const onClick = () => {
-    router.push(`/server/${id}`);
+    router.push(`/servers/${id}`);
   }
   return (
     <ActionTooltip label={name} side="right" align="center">
